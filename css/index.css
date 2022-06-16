@@ -1,0 +1,593 @@
+/* 版心 */
+.w {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* 浮动 */
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+/* 头部导航栏 */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+}
+
+.header .head {
+    height: 70px;
+}
+
+.head .logo h1 a {
+    color: #80B421;
+}
+
+.head .nav {
+    margin-top: 0;
+    height: 70px;
+}
+
+.head .nav li {
+    float: left;
+    margin: 0 24px;
+    line-height: 70px;
+}
+
+.head .nav li a {
+    display: inline-block;
+    margin-top: 19px;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 10px;
+    color: #858585;
+    font-size: 1.4em;
+}
+
+.head .nav li a:hover {
+    color: #80B421;
+}
+
+.head .nav .active {
+    background-color: #80B421;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.head .nav .active:hover {
+    color: #fff;
+}
+
+/* Home 模块 */
+.home {
+    overflow: hidden;
+    margin-top: 70px;
+    width: 100%;
+    height: auto;
+    background-color: #80B421;
+}
+
+.home .slider .slider-wrapper {
+    position: relative;
+}
+
+.home .slider .slider-wrapper img {
+    width: 100%;
+    height: 100%;
+    display: block;
+
+}
+
+.home .slider .slider-wrapper .slider-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    text-align: center;
+}
+
+.home .slider .slider-wrapper .slider-text h1 {
+    padding: 10px 15px;
+    font-size: 45px;
+    background: rgba(128, 180, 33, 0.80);
+    color: #fff;
+}
+
+.home .slider .slider-wrapper .slider-text h3 {
+    margin-top: -20px;
+    font-size: 30px;
+    color: #1C4604;
+    text-shadow: #fff 1px 1px 1px;
+}
+
+.home .slider .slider-wrapper .slider-indicator {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    width: 100px;
+    height: 20px;
+    transform: translateX(-50%);
+}
+
+.home .slider .slider-wrapper .slider-indicator li {
+    margin: 5px 6px;
+    float: left;
+    width: 9px;
+    height: 9px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.home .slider .slider-wrapper .slider-indicator .active {
+    margin: 3px 0;
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+}
+
+.home .slider .slider-wrapper .prev,
+.home .slider .slider-wrapper .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 150px;
+    background: rgba(0, 0, 0, .6);
+}
+
+.home .slider .slider-wrapper .prev {
+    left: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.home .slider .slider-wrapper .next {
+    right: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.home .slider .slider-wrapper .prev i,
+.home .slider .slider-wrapper .next i {
+    font-size: 40px;
+    color: #858585;
+    font-weight: 600;
+}
+
+.home .slider .slider-wrapper .prev:hover,
+.home .slider .slider-wrapper .next:hover {
+    background: rgba(0, 0, 0, .4);
+}
+
+
+.home .home-b h3 {
+    font-size: 24px;
+    color: #333;
+    font-weight: 500;
+    line-height: 53px;
+}
+
+.home .home-b button {
+    margin: 38px 116px;
+    padding: 6px 12px;
+    background: rgba(255, 255, 255, 0.73);
+    border-radius: 5px;
+}
+
+.home .home-b button:hover {
+    background-color: #6EAA00;
+    color: #fff;
+}
+
+/* About Us 模块 */
+.aboutus {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    background-color: #2C2C2C;
+}
+
+.aboutus .aboutus-t {
+    margin-top: 55px;
+    text-align: center;
+}
+
+.aboutus .aboutus-t h1 {
+    font-size: 30px;
+    color: #fff;
+}
+
+.aboutus .aboutus-t p {
+    font-size: 1.4em;
+    color: #858585;
+}
+
+.aboutus .aboutus-b {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutus .aboutus-b .item {
+    width: 390px;
+    height: 190px;
+    margin: 20px 0;
+}
+
+.aboutus .aboutus-b .item h3 {
+    margin: -10px 0;
+    font-size: 24px;
+    color: #bebebe;
+    font-weight: 500;
+}
+
+.aboutus .aboutus-b .item h3 i {
+    margin-right: 15px;
+    font-size: 30px;
+    color: #6EAA00;
+}
+
+.aboutus .aboutus-b .item p {
+    font-size: 15.4px;
+    color: #6d6d6d;
+    line-height: 1.6em;
+}
+
+/* Services 模块 */
+.services {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+
+.services .services-t {
+    margin-top: 55px;
+    text-align: center;
+}
+
+.services .services-t h1 {
+    font-size: 30px;
+    color: #80B421;
+}
+
+.services .services-t p {
+    font-size: 1.4em;
+    color: #858585;
+}
+
+.services .services-b {
+    margin-bottom: 40px;
+}
+
+.services .services-b .item {
+    width: 360px;
+    height: 200px;
+    text-align: center;
+}
+
+.services .services-b .item span {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: #6EAA00;
+    border-radius: 50%;
+    line-height: 60px;
+}
+
+.services .services-b {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.services .services-b .item span i {
+    font-size: 30px;
+    color: #fff;
+}
+
+.services .services-b .item h3 {
+    margin-top: 8px;
+    font-size: 24px;
+    color: #333;
+    font-weight: 500;
+}
+
+.services .services-b .item p {
+    margin-top: -22px;
+    font-size: 15.4px;
+    color: #858585;
+}
+
+/* Portfolio 模块 */
+.portfolio {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    background-color: #2C2C2C;
+}
+
+.portfolio .portfolio-t {
+    margin-top: 55px;
+    text-align: center;
+}
+
+.portfolio .portfolio-t h1 {
+    font-size: 30px;
+    color: #80B421;
+}
+
+.portfolio .portfolio-t p {
+    font-size: 1.4em;
+    color: #858585;
+}
+
+.portfolio .portfolio-b .navs {
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.portfolio .portfolio-b .navs .active {
+    background-color: #80B421;
+    color: #fff;
+
+}
+
+.portfolio .portfolio-b .navs .active:hover {
+    color: #7AAC00;
+}
+
+.portfolio .portfolio-b .navs a {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 4px 12px;
+    border: 1px solid #80B421;
+    font-size: 14px;
+    color: #6EAA00;
+}
+
+.portfolio .portfolio-b .img {
+    margin-bottom: 60px;
+}
+
+.portfolio .portfolio-b .img img {
+    width: 360px;
+    height: 275px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.portfolio .portfolio-b .img .item {
+    display: none;
+}
+
+.portfolio .portfolio-b .img .active {
+    display: block;
+}
+
+/* Our Team 模块 */
+.ourteam {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.ourteam .ourteam_t {
+    text-align: center;
+}
+
+.ourteam .ourteam_t h1 {
+    font-size: 30px;
+    color: #80B421;
+}
+
+.ourteam .ourteam_t p {
+    font-size: 1.4em;
+    color: #858585;
+}
+
+.ourteam .ourteam_b {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ourteam .ourteam_b>div {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.ourteam .ourteam_b .member-img img {
+    width: 248px;
+    height: 242px;
+    border: 2px solid #6EAA00;
+    border-radius: 50%;
+}
+
+.ourteam .ourteam_b .member-name {
+    margin: 6px;
+    font-size: 22px;
+    color: #bebebe;
+}
+
+.ourteam .ourteam_b span {
+    font-size: 14px;
+    color: #333;
+}
+
+.ourteam .ourteam_b .team-socials {
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-evenly;
+    padding: 0 33px;
+}
+
+.ourteam .ourteam_b .team-socials a {
+    display: block;
+    width: 42px;
+    height: 42px;
+    border: 2px solid #E7EBEF;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.ourteam .ourteam_b .team-socials a .iconfont {
+    font-size: 25px;
+    color: #6EAA00;
+}
+
+/* Contact Us 模块 */
+.contactus {
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.contactus .contactus_t {
+    text-align: center;
+}
+
+.contactus .contactus_t h1 {
+    font-size: 30px;
+    color: #80B421;
+}
+
+.contactus .contactus_t p {
+    font-size: 1.4em;
+    color: #858585;
+}
+
+.contactus .contactus_b {
+    height: 340px;
+    margin-bottom: 50px;
+}
+
+.contactus .contactus_b .contactus_l {
+    width: 350px;
+}
+
+.contactus .contactus_b .contactus_l h4 {
+    font-size: 18px;
+}
+
+.contactus .contactus_b .contactus_r input {
+    margin-bottom: 10px;
+    width: 730px;
+    height: 34px;
+    border: 1px solid #858585;
+    border-radius: 5px;
+
+}
+
+.contactus .contactus_b .contactus_r textarea {
+    margin-bottom: 10px;
+    width: 730px;
+    height: 214px;
+    border: 1px solid #858585;
+    border-radius: 5px;
+    resize: none;
+}
+
+.contactus .contactus_b .contactus_r .btn {
+    width: 55px;
+    height: 32px;
+    color: #fff;
+    background-color: #80B421;
+    border-radius: 5px;
+}
+
+.contactus .contactus_b .contactus_r .btn:hover {
+    background-color: #6EAA00;
+}
+
+
+/* 底部模块 */
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: #242424;
+}
+
+.footer .footertext {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer .footertext h4 {
+    color: #858585;
+    font-size: 18px;
+}
+
+.footer .footertext p {
+    color: #858585;
+    font-size: 1.2em;
+}
+
+.footer .footertext .footertext_l {
+    padding: 0 14px;
+    flex: 1;
+}
+
+.footer .footertext .footertext_c {
+    margin-bottom: 40px;
+    padding: 0 13px;
+    flex: 1;
+}
+
+.footer .footertext .footertext_r {
+    padding: 0 -7px;
+    flex: 1;
+}
+
+.footer .footertext .footertext_l h4 {
+    color: #80B421;
+}
+
+.footer .footertext .footertext_l p {
+    line-height: 2em;
+}
+
+.footer .footertext .footertext_l ul {
+    margin-left: -45px;
+}
+
+.footer .footertext .footertext_l li {
+    float: left;
+    padding: 0 5px;
+}
+
+.footer .footertext .footertext_l li a {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background-color: #80B421;
+    border-radius: 5px;
+    text-align: center;
+    color: #242424;
+}
+
+.footer .footertext .footertext_c p a {
+    color: #80B421;
+}
+
+.footer .footertext .footertext_r .telephone {
+    color: #80B421;
+}
+
+.footer .footertext .footertext_r p i {
+    margin-right: 20px;
+}
